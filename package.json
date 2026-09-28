@@ -1,0 +1,19 @@
+{
+  "name": "bot-discord-ai",
+  "version": "1.0.0",
+  "description": "Discord AI Agent powered by Gemini Flash",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.20.0",
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "google-tts-api": "^2.0.2",
+    "libsodium-wrappers": "^0.8.4"
+  }
+}
